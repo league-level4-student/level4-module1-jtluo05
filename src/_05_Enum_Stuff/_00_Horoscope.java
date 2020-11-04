@@ -13,44 +13,57 @@ public class _00_Horoscope {
 		switch(z) {
 		case ARIES:{
 			JOptionPane.showMessageDialog(null, "You are a Aries.");
+			break;
 		}
 		case TAURUS:{
 			JOptionPane.showMessageDialog(null, "You are a Taurus.");
+			break;
 		}
 		case GEMINI:{
 			JOptionPane.showMessageDialog(null, "You are a Gemini.");
+			break;
 		}
 		case CANCER:{
 			JOptionPane.showMessageDialog(null, "You are a Cancer.");
+			break;
 		}
 		case LEO:{
 			JOptionPane.showMessageDialog(null, "You are a Leo.");
+			break;
 		}
 		case VIRGO:{
 			JOptionPane.showMessageDialog(null, "You are a Virgo.");
+			break;
 		}
 		case LIBRA:{
 			JOptionPane.showMessageDialog(null, "You are a Libra.");
+			break;
 		}
 		case SCORPIO:{
 			JOptionPane.showMessageDialog(null, "You are a Scorpio.");
+			break;
 		}
 		case SAGITTARIUS:{
 			JOptionPane.showMessageDialog(null, "You are a SAGITTARIUS.");
+			break;
 		}
 		case CAPRICORN:{
 			JOptionPane.showMessageDialog(null, "You are a Capricorn.");
+			break;
 		}
 		case AQUARIUS:{
 			JOptionPane.showMessageDialog(null, "You are a aquarius.");
+			break;
 		}
 		case PISCES:{
 			JOptionPane.showMessageDialog(null, "You are a pices.");
+			break;
 		}
 		}
 	}
 	// 3. Make a main method to test your method
 	public static void main(String[] args) {
-		zodiac(z);
+		_00_Horoscope h= new _00_Horoscope();
+		h.zodiac(Zodiac.LEO);
 	}
 }
